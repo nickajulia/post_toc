@@ -1,3 +1,70 @@
+//toc scss file
+
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.site-header {
+	position: static;
+}
+
+blockquote {
+	color: #333;
+	font-style: italic;
+}
+
+/* Content Boxes
+------------------------------------------------------------ */
+.content-box-blue,
+.content-box-gray,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.content-box-blue {
+	background-color: #d8ecf7;
+	border: 1px solid #afcde3;
+}
+
+.content-box-gray {
+	background-color: #e2e2e2;
+	border: 1px solid #bdbdbd;
+}
+
+.content-box-green {
+	background-color: #d9edc2;
+	border: 1px solid #b2ce96;
+}
+
+.content-box-purple {
+	background-color: #e2e2f9;
+	border: 1px solid #bebde9;
+}
+
+.content-box-red {
+	background-color: #f9dbdb;
+	border: 1px solid #e9b3b3;
+}
+
+.content-box-yellow {
+	background-color: #fef5c4;
+	border: 1px solid #fadf98;
+}
+
+/*---------- text ---------*/
+.smText {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+
 /* Main Primary color */
 $color-primary-0: #F04848;	// Main Primary color */
 $color-primary-1: #FF9999;
@@ -49,7 +116,7 @@ $color-complement-4: #0B8A0B;
 			  	border-bottom-color: $color-complement-0;
 			  }
 			  &:nth-of-type(5n+5){
-			   border-bottom-color: $color-secondary-1-2;   
+			   border-bottom-color: $color-secondary-1-4;   
 			  }
 
 			  &:hover{
@@ -70,8 +137,8 @@ $color-complement-4: #0B8A0B;
 			  	  	color: $color-complement-0;
 			  	  }
 			  	  &:nth-of-type(5n+5){
-			  	   border-bottom-color: $color-secondary-1-2;   
-			  	   color: $color-secondary-1-1;   
+			  	   border-bottom-color: $color-secondary-1-4;   
+			  	   color: $color-secondary-1-4;   
 			  	  }
 			  }
 			a{
@@ -86,4 +153,38 @@ $color-complement-4: #0B8A0B;
 		}
 
 	
+}
+
+/*---------- Leadbox for end of post ---------*/
+.leadboxWrap {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.leadboxText {
+	width: 45%;
+	margin-right: 4%;
+}
+
+.leadboxImg {
+	width: 30%;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.leadboxImg {
+	width: 35%;
+}
+
+.leadboxLink {
+	width: 45%;
+	margin-right: 2%;
+}
+
+.widthFull {
+	width: 100%;
 }

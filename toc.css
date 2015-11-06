@@ -1,0 +1,40 @@
+// toc css
+
+
+/*---------- Table of contents links ---------*/
+.toc li {
+  color: #222;
+  border-bottom-width: 3px;
+  font-weight: 600;
+  padding-top: 15px; }
+  .toc li:nth-of-type(5n+1) {
+    border-bottom-color: #F04848; }
+  .toc li:nth-of-type(5n+2) {
+    border-bottom-color: #F09448; }
+  .toc li:nth-of-type(5n+3) {
+    border-bottom-color: #2B9090; }
+  .toc li:nth-of-type(5n+4) {
+    border-bottom-color: #3AC03A; }
+  .toc li:nth-of-type(5n+5) {
+    border-bottom-color: #FFB06E; }
+  .toc li:hover:nth-of-type(5n+1) {
+    border-bottom-color: #F04848;
+    color: #F04848; }
+  .toc li:hover:nth-of-type(5n+2) {
+    border-bottom-color: #F09448;
+    color: #F09448; }
+  .toc li:hover:nth-of-type(5n+3) {
+    border-bottom-color: #2B9090;
+    color: #2B9090; }
+  .toc li:hover:nth-of-type(5n+4) {
+    border-bottom-color: #3AC03A;
+    color: #3AC03A; }
+  .toc li:hover:nth-of-type(5n+5) {
+    border-bottom-color: #FFB06E;
+    color: #FFC799; }
+  .toc li a {
+    color: inherit;
+    border-bottom-color: inherit;
+    border-bottom-style: solid; }
+    .toc li a:hover {
+      color: inherit; }
